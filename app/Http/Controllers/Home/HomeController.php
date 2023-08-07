@@ -86,33 +86,52 @@ class HomeController extends Controller
             [
                 'id'=>'1',
                 'image'=>'assets/img/svg/paint-palette.svg',
-                'name'=>'creative design',
-                'feature'=>'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+                'name'=>'Creative Design',
+                'feature'=>'Incorporate innovative and visually appealing creative design elements that enhance the user experience and aesthetics of the software interface.'
             ],
             [
                 'id'=>'2',
-                'image'=>'assets/img/svg/vector.svg',
-                'name'=>'Retina Ready',
-                'feature'=>'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+                'image'=>'https://cdn.iconscout.com/icon/premium/png-256-thumb/employee-management-2789097-2311460.png?f=webp',
+                'name'=>'Efficient Employee Management',
+                'feature'=>'Efficiently centralize and manage employee information, from personal details to performance records, in a secure database.'
             ],
             [
                 'id'=>'3',
-                'image'=>'assets/img/svg/design-tool.svg',
-                'name'=>'easy to use',
-                'feature'=>'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/2920/2920360.png',
+                'name'=>'User-friendly Interface',
+                'feature'=>'Automate payroll calculations and ensure accurate, timely salary payments while minimizing errors.'
             ],
             [
                 'id'=>'4',
-                'image'=>'assets/img/svg/asteroid.svg ',
-                'name'=>'Free Updates',
-                'feature'=>'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+                'image'=>'https://cdn.iconscout.com/icon/free/png-256/free-payroll-24-1133830.png?f=webp',
+                'name'=>'Streamlined Payroll Processing',
+                'feature'=>'Monitor real-time attendance, leaves, and time-off requests for informed decision-making.'
             ],
             [
                 'id'=>'5',
-                'image'=>'assets/img/svg/code.svg',
-                'name'=>'clean codes',
-                'feature'=>'Lorem Ipsum is simply dummy text of the printing and typesetting industry'
+                'image'=>'https://cdn.iconscout.com/icon/premium/png-256-thumb/employee-attendance-management-system-2245408-1872868.png?f=webp',
+                'name'=>'Real-time Time and Attendance Tracking',
+                'feature'=>'Streamline leave management with online applications, approvals, and balance tracking.'
             ],
+            [
+                'id'=>'6',
+                'image'=>'https://icons.veryicon.com/png/o/miscellaneous/facet-icon-6/leave-management-1.png',
+                'name'=>'Seamless Leave Management',
+                'feature'=>'Gain valuable insights into workforce trends, productivity, and performance through detailed reports and analytics.'
+            ],
+            [
+                'id'=>'7',
+                'image'=>'https://icon-library.com/images/analytics-icon-png/analytics-icon-png-18.jpg',
+                'name'=>'Insightful Reports and Analytics',
+                'feature'=>'Ensure data security with robust measures and role-based access control in our HR Payroll software.'
+            ],
+            [
+                'id'=>'8',
+                'image'=>'https://icons.veryicon.com/png/o/miscellaneous/52-simple-and-colorful-icon/security-84.png',
+                'name'=>'Enhanced Security and Access Control',
+                'feature'=>'Navigate and utilize the software`s full potential easily with an intuitive and user-friendly interface for HR teams and employees.'
+            ],
+           
             
                 
         ];

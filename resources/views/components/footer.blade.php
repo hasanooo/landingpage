@@ -6,7 +6,7 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">BengalSoft</a>
+            <a class="navbar-brand" href="#">BengalHR</a>
             <p>Bengal Software has fast become a dynamic and fast-moving company in Client Solution Management in Information Technology in Bangladesh and has proven itself to be one of the high performers. Established in 2015, we have global customers from UK, Europe, Poland, USA & Bangladesh and many others.</p>
 
           </div>
@@ -77,7 +77,7 @@
 
     <div class="copyrights">
       <div class="container">
-        <p>&copy; Copyrights Bengalsoft. All rights reserved.</p>
+        <p>&copy; Copyrights BengalHR. All rights reserved.</p>
         <div class="credits">
           
           Developed by <a href="https://www.bengalsoftware.com/">Bengalsoftware</a>
