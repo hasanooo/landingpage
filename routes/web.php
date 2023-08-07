@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Home\HomeController;
 /*
@@ -13,6 +14,8 @@ use App\Http\Controllers\Home\HomeController;
 |
 */
 
+
+Route::post('/formsubmit',[UserController::class,'formsubmit'])->name('form.submit');
 Route::controller(HomeController::class)->group(function () {
     Route::get('/','Home')->name('home.page');
    
