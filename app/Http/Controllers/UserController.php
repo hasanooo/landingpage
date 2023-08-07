@@ -34,4 +34,9 @@ class UserController extends Controller
         );
         return redirect()->back()->with($notification);
     }
+    function userlist()
+    {
+        $users=User::all();
+        return view('home.userlist')->with('user',$users);
+    }
 }

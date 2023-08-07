@@ -16,6 +16,8 @@ use App\Http\Controllers\Home\HomeController;
 
 
 Route::post('/formsubmit',[UserController::class,'formsubmit'])->name('form.submit');
+Route::get('/alluser',[UserController::class,'userlist'])->name('user.list');
+
 Route::controller(HomeController::class)->group(function () {
     Route::get('/','Home')->name('home.page');
    
