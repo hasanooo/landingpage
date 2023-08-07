@@ -5,7 +5,7 @@
 <section id="hero">
     <div class="hero-container" data-aos="fade-in">
       <h1>Welcome to BengalHR</h1>
-      <h2>One of the Best HR and Payroll Management Software in Bangladesh</h2>
+      <h2>Elevating Businesses with Exceptional HR and Precision Payroll Solutions</h2>
         <div class="position-relative">
             <img src="{{$image['homeimg1']}}" style="height: 280px; weight: 280px;" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100" class="img-fluid shadow scale-3d">
             <img src="{{$image['homeimg2']}}" style="height: 280px; weight: 280px;" alt="Hero Imgs2" data-aos="zoom-out" data-aos-delay="100" class="img-fluid shadow scale-3d">
@@ -82,21 +82,23 @@
     <div class="row justify-content-center">
 
       <div class="col-md-5 col-lg-5">
-        <img src="assets/img/pc.png" style="height: 400px; weight: 400px;" alt="About" data-aos="zoom-in" data-aos-delay="100">
+        <img src="https://img.freepik.com/free-vector/about-us-concept-illustration_114360-639.jpg" style="height: 800px; weight: 800px;" alt="About" data-aos="zoom-in" data-aos-delay="100">
       </div>
 
       <div class="col-md-7 col-lg-5">
         <div class="about-content" data-aos="fade-left" data-aos-delay="100">
 
-          <h2><b>BengalHR</b></h2>
+          <h2><b>{{$about['title']}}</b></h2>
           <p></p>
 
           <ul class="list-unstyled">
-            <li><i class="vi bi-chevron-right"></i>Creative Design</li>
-            <li><i class="vi bi-chevron-right"></i>Retina Ready</li>
-            <li><i class="vi bi-chevron-right"></i>Easy to Use</li>
-            <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
-            <li><i class="vi bi-chevron-right"></i>Unlimited Features</li>
+            <li><p>{{$about['describtion']}}</p></li>
+            @foreach($aboutcontent as $item)
+            <li>
+              <i class="vi bi-chevron-right"></i><b>{{$item['title']}}</b>
+              <p>{{$item['describtion']}}</p>
+            </li>
+            @endforeach
           </ul>
 
         </div>
@@ -111,8 +113,8 @@
 
   <div class="container" data-aos="fade-up">
     <div class="section-title text-center">
-      <h2>Amazing Features.</h2>
-      <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      <h2><b>Amazing Features.</b></h2>
+      <p class="separator">Discovering Incredible New Features That Push Boundaries</p>
     </div>
 
     <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -137,8 +139,8 @@
 
   <div class="container" data-aos="fade-up">
     <div class="section-title text-center">
-      <h2>Software Gallery</h2>
-      <p class="separator">Integer cursus bibendum augue ac cursus .</p>
+      <h2><b>Software Gallery</b></h2>
+      <p class="separator">Explore the Software</p>
     </div>
     
    
@@ -146,7 +148,7 @@
     <div class="swiper-wrapper align-items-center">
         @foreach($slider as $item)
         <div class="swiper-slide">
-            <img src="{{ $item['image'] }}" class="img-fluid" style="height: 400px; width: auto;" alt="" data-aos="zoom-in" data-aos-delay="100">
+            <img src="{{ $item['image'] }}" class="img-fluid" style="height: auto; width: auto;" alt="" data-aos="zoom-in" data-aos-delay="100">
         </div>
         @endforeach
     </div>
@@ -172,7 +174,7 @@
 </section>--}}<!-- End Video Section -->
 
 <!-- ======= Team Section ======= -->
-<section id="team" class="padd-section text-center">
+{{--<section id="team" class="padd-section text-center">
 
   <div class="container" data-aos="fade-up">
     <div class="section-title text-center">
@@ -202,7 +204,7 @@
 
     </div>
   </div>
-</section><!-- End Team Section -->
+</section>--}}<!-- End Team Section -->
 
 <!-- ======= Testimonials Section ======= -->
 {{--<section id="testimonials" class="padd-section text-center">
@@ -410,7 +412,7 @@
 </section>--}}<!-- End Blog Section -->
 
 <!-- ======= Newsletter Section ======= -->
-<section id="newsletter" class="newsletter text-center">
+{{--<section id="newsletter" class="newsletter text-center">
   <div class="overlay padd-section">
     <div class="container" data-aos="zoom-in">
 
@@ -432,14 +434,14 @@
 
     </div>
   </div>
-</section><!-- End Newsletter Section -->
+</section>--}}<!-- End Newsletter Section -->
 
 <!-- ======= Contact Section ======= -->
 <section id="contact" class="padd-section">
 
   <div class="container" data-aos="fade-up">
     <div class="section-title text-center">
-      <h2>Contact</h2>
+      <h2><b>Apply Here For Demo</b></h2>
       <p class="separator">Discover the perfect fit with BengalHR</p>
     </div>
 
@@ -460,7 +462,7 @@
 
           <div class="email">
             <i class="bi bi-envelope"></i>
-            <p>{{$contact['email']}}</p>
+            <p><a href="mailto:{{$contact['email']}}">{{$contact['email']}}</a></p>
           </div>
 
           <div>
