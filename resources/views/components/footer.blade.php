@@ -6,31 +6,17 @@
         <div class="col-md-12 col-lg-4">
           <div class="footer-logo">
 
-            <a class="navbar-brand" href="#">BengalSoft</a>
+            <a class="navbar-brand" href="#">Bengal Software</a>
             <p>Bengal Software has fast become a dynamic and fast-moving company in Client Solution Management in Information Technology in Bangladesh and has proven itself to be one of the high performers. Established in 2015, we have global customers from UK, Europe, Poland, USA & Bangladesh and many others.</p>
 
           </div>
         </div>
 
+        
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
-
-            <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-
-          </div>
-        </div>
-
-        <div class="col-sm-6 col-md-3 col-lg-2">
-          <div class="list-menu">
-
-            <h4>Abou Us</h4>
+            <h4>About Us</h4>
 
             <ul class="list-unstyled">
               <li><a href="#">About us</a></li>
@@ -56,28 +42,29 @@
 
           </div>
         </div>
-
         <div class="col-sm-6 col-md-3 col-lg-2">
           <div class="list-menu">
 
-            <h4>Abou Us</h4>
+            <h4>Contact Us</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">About us</a></li>
-              <li><a href="#">Features item</a></li>
-              <li><a href="#">Live streaming</a></li>
-              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Adept KR Complex (2nd floor), Beside Jamuna Future Park,, Bashundhara R/A Link Road, Dhaka 1222Basundhara, Dhaka.</a></li>
+              <li><a href="#">+8801636408000</a></li>
+              <li><a href="#"> sales@bengalsoftware.com</a></li>
+              <li><a href="#">+8801636408000</a></li>
             </ul>
 
           </div>
         </div>
+
+      
 
       </div>
     </div>
 
     <div class="copyrights">
       <div class="container">
-        <p>&copy; Copyrights Bengalsoft. All rights reserved.</p>
+        <p>&copy; Copyrights BengalHR. All rights reserved.</p>
         <div class="credits">
           
           Developed by <a href="https://www.bengalsoftware.com/">Bengalsoftware</a>
