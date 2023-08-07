@@ -480,32 +480,30 @@
 
       <div class="col-lg-5 col-md-8">
         <div class="form">
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+          <form action="{{route('form.submit')}}" method="POST" class="form">
+          @csrf
             <div class="form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name">
             </div>
             <div class="form-group mt-3">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email">
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="companyname" id="companyname" placeholder="Your Company Name" required>
+              <input type="text" class="form-control" name="company" id="companyname" placeholder="Your Company Name">
             </div>
             <div class="form-group mt-3">
-              <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Contact" required>
+              <input type="number" class="form-control" name="phone" id="phone" placeholder="Your Contact">
             </div>
             <div class="form-group mt-3">
-              <input type="text" class="form-control" name="address" id="address" placeholder="Your Address" required>
+              <input type="text" class="form-control" name="address" id="address" placeholder="Your Address">
             </div>
             
             <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              <textarea class="form-control" name="message" rows="5" placeholder="Message"></textarea>
             </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
+            
             <div class="text-center"><button type="submit">Submit</button></div>
+            
           </form>
         </div>
       </div>

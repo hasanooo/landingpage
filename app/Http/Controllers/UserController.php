@@ -12,7 +12,7 @@ class UserController extends Controller
         $req->validate(
             [
                 'name' => 'required',
-                'phone' => 'required|number',
+                'phone' => 'required',
                 'address' => 'required',
                 'email' => 'required',
                 'company' => 'required',
@@ -28,10 +28,10 @@ class UserController extends Controller
         $user->email = $req->email;
         $user->company_name = $req->company;
         $user->save();
-        $notice = array(
-            'message' => 'your information add successfully',
-            'alert' => 'warning'
+        $notification = array(
+            'message' => 'Your message has been sent. Thank you!',
+            'alert' => 'success'
         );
-        return redirect()->back()->with($notice);
+        return redirect()->back()->with($notification);
     }
 }
