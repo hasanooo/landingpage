@@ -60,7 +60,11 @@ class HomeController extends Controller
         ];
 
         $slider=[
-
+            
+            [
+                'id'=>'31',
+                'image'=>'assets/img/screen/35.png',
+            ],
             [
                 'id'=>'1',
                 'image'=>'assets/img/screen/1.png',
@@ -181,10 +185,7 @@ class HomeController extends Controller
                 'id'=>'30',
                 'image'=>'assets/img/screen/34.png',
             ],
-            [
-                'id'=>'31',
-                'image'=>'assets/img/screen/35.png',
-            ],
+           
             [
                 'id'=>'32',
                 'image'=>'assets/img/screen/36.png',
