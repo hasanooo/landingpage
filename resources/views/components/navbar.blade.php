@@ -14,7 +14,7 @@
           <li><a class="nav-link scrollto" href="#about-us">About</a></li>
           <li><a class="nav-link scrollto" href="#features">Features</a></li>
           <li><a class="nav-link scrollto" href="#screenshots">Screenshots</a></li>
-          <li><a class="nav-link scrollto" href="#team">Developers</a></li>
+        
           {{--<li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>--}}
           {{--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
