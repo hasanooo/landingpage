@@ -241,9 +241,9 @@ class HomeController extends Controller
 
             [
                 'id'=>'1',
-                'image'=>'assets/img/svg/paint-palette.svg',
-                'name'=>'Creative Design',
-                'feature'=>'Incorporate innovative and visually appealing creative design elements that enhance the user experience and aesthetics of the software interface.'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/2666/2666488.png',
+                'name'=>'Employees Rewards Points',
+                'feature'=>'Boost motivation with our rewards system.'
             ],
             [
                 'id'=>'2',
@@ -260,7 +260,7 @@ class HomeController extends Controller
             [
                 'id'=>'4',
                 'image'=>'https://cdn.iconscout.com/icon/free/png-256/free-payroll-24-1133830.png?f=webp',
-                'name'=>'Streamlined Payroll Processing',
+                'name'=>'Streamlined Payroll Disbursement',
                 'feature'=>'Monitor real-time attendance, leaves, and time-off requests for informed decision-making.'
             ],
             [
@@ -286,6 +286,31 @@ class HomeController extends Controller
                 'image'=>'https://icons.veryicon.com/png/o/miscellaneous/52-simple-and-colorful-icon/security-84.png',
                 'name'=>'Enhanced Security and Access Control',
                 'feature'=>'Navigate and utilize the software`s full potential easily with an intuitive and user-friendly interface for HR teams and employees.'
+            ],
+           
+            [
+                'id'=>'9',
+                'image'=>'https://cdn-icons-png.flaticon.com/512/2618/2618139.png',
+                'name'=>'Bonus & Increment',
+                'feature'=>'Manage bonuses effortlessly with our user-friendly HR system.'
+            ],
+            [
+                'id'=>'10',
+                'image'=>'https://cdn-icons-png.flaticon.com/512/352/352723.png',
+                'name'=>'Notice & Shift Management',
+                'feature'=>'Simplify shift scheduling and communication.'
+            ],
+            [
+                'id'=>'11',
+                'image'=>'https://cdn-icons-png.flaticon.com/512/1019/1019605.png',
+                'name'=>'Payroll tax preparation',
+                'feature'=>'Ensure payroll tax compliance with ease'
+            ],
+            [
+                'id'=>'12',
+                'image'=>'https://cdn-icons-png.flaticon.com/512/5501/5501375.png',
+                'name'=>'Fund & Expense Management ',
+                'feature'=>'Streamline financial tracking and allocation'
             ],
            
             
