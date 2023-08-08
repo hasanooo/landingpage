@@ -48,10 +48,12 @@
             <h4>Contact Us</h4>
 
             <ul class="list-unstyled">
-              <li><a href="#">Adept KR Complex (2nd floor), Beside Jamuna Future Park,, Bashundhara R/A Link Road, Dhaka 1222Basundhara, Dhaka.</a></li>
-              <li><a href="#">+8801636408000</a></li>
-              <li><a href="#"> sales@bengalsoftware.com</a></li>
-              <li><a href="#">+8801636408000</a></li>
+              <li class="text-white" style="font-family: roboto">
+                Adept KR Complex (2nd floor),Beside Jamuna Future Park,, Bashundhara R/A Link Road, Dhaka 1222Basundhara, Dhaka.
+              </li>
+              <li class="text-white" style="font-family: roboto">+8801636408000</li>
+              <li class="text-white" style="font-family: roboto">sales@bengalsoftware.com</li>
+              <li class="text-white" style="font-family: roboto">+8801636408000</li>
             </ul>
 
           </div>
