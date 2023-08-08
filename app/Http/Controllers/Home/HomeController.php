@@ -231,7 +231,7 @@ class HomeController extends Controller
             ],
             [
                 'id'=>'43',
-                'image'=>'assets/img/screen/47.jpg',
+                'image'=>'assets/img/screen/47.png',
             ],
             
                 
