@@ -4,13 +4,9 @@
 <!-- ======= Hero Section ======= -->
 <section id="hero">
     <div class="hero-container" data-aos="fade-in">
-      <h1>Welcome to BengalHR</h1>
-      <h2 style="font-family: Encode Sans, Sans-serif;">Elevating Businesses with Exceptional HR and Precision Payroll Solutions</h2>
-        <div class="position-relative">
-            <img src="{{$image['homeimg1']}}" style="height: 280px; weight: 280px;" alt="Hero Imgs" data-aos="zoom-out" data-aos-delay="100" class="img-fluid shadow scale-3d">
-            <img src="{{$image['homeimg2']}}" style="height: 280px; weight: 280px;" alt="Hero Imgs2" data-aos="zoom-out" data-aos-delay="100" class="img-fluid shadow scale-3d">
-        </div>
-      
+      <h1>{{$software['softwaretitle']}}</h1>
+      <h2 style="font-family: Encode Sans, Sans-serif; word-wrap: break-word; max-width: 500px;">{{$software['subtitle']}}</h2>
+        
       <a href="#contact" class="btn-get-started scrollto">Get Started</a>
       
     </div>
@@ -27,7 +23,8 @@
     <div class="row justify-content-center">
 
       <div class="col-md-5 col-lg-5">
-        <img src="https://img.freepik.com/free-vector/about-us-concept-illustration_114360-639.jpg" style="height: 800px; weight: 800px;" alt="About" data-aos="zoom-in" data-aos-delay="100">
+        <img src="{{$about['image']}}" style="height: auto; weight: auto;" alt="About" data-aos="zoom-in" data-aos-delay="100">
+        <img src="{{$about['image2']}}" style="height: auto; weight: auto;" alt="About" data-aos="zoom-in" data-aos-delay="100">
       </div>
 
       <div class="col-md-7 col-lg-5">
@@ -90,13 +87,13 @@
     
    
     <div class="screens-slider swiper">
-    <div class="swiper-wrapper align-items-center">
-        @foreach($slider as $item)
-        <div class="swiper-slide">
-            <img src="{{ $item['image'] }}" class="img-fluid" style="height: auto; width: auto;" alt="" data-aos="zoom-in" data-aos-delay="100">
-        </div>
-        @endforeach
-    </div>
+      <div class="swiper-wrapper align-items-center">
+          @foreach($slider as $item)
+          <div class="swiper-slide">
+              <img src="{{ $item['image'] }}" class="img-fluid" style="height: auto; width: auto;" alt="" data-aos="zoom-in" data-aos-delay="100">
+          </div>
+          @endforeach
+      </div>
     {{--<div class="swiper-pagination"></div>--}}
 </div>
 
@@ -111,7 +108,7 @@
   <div class="container" data-aos="fade-up">
     <div class="section-title text-center">
       <h2><b>Apply Here For Demo</b></h2>
-      <p class="separator" style="font-family: Encode Sans, Sans-serif;">Discover the perfect fit with BengalHR</p>
+      <p class="separator" style="font-family: Encode Sans, Sans-serif;">Discover the perfect fit with Bengal Finance</p>
     </div>
 
     <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">

@@ -9,6 +9,13 @@ class HomeController extends Controller
 {
     public function Home()
     {
+
+        $software=[
+           
+            'softwaretitle'=>'Bengal Finance',
+            'subtitle'=>'Empower Your Financial Operations with the Finance Management System. Streamline, Secure, and Succeed in Managing Your Business Finances',
+        ];
+
         $contact = [
             'city' => 'Dhaka',
             'street'=>'main gate, opposite Jamuna Future Park',
@@ -20,219 +27,130 @@ class HomeController extends Controller
         ];
 
         $image=[
-            'homeimg1'=>'assets/img/screen/1.png',
-            'homeimg2'=>'assets/img/screen/37.png',
+            'homeimg1'=>'assets/img/acc/21.jpeg',
+            'homeimg2'=>'',
         ];
 
-        $team = [
-            [
-                'image' => 'assets/img/team/imon.jpeg',
-                'member' => 'Imon Faysal',
-                'role' => 'Software Engineer',
-                'facebook'=>'https://www.facebook.com/faysalahmed.khan.1',
-                'linkedin'=>'https://www.linkedin.com/in/imon-faysal-143b82234/',
-                'email'=>'emonf666@gmail.com'
-            ],
-            [
-                'image' => 'assets/img/team/sheikhraihan.jpeg',
-                'member' => 'Sheikh Raihan Al Saleh',
-                'role' => 'Software Engineer',
-                'facebook'=>'https://www.facebook.com/sheakhraihan.nabil/',
-                'linkedin'=>'https://www.linkedin.com/in/sheikh-raihan-al-saleh-b24330188/',
-                'email'=>'sheikhraihanalsaleh22@gmail.com'
-            ],
-            [
-                'image' => 'assets/img/team/hasan.png',
-                'member' => 'Kazi Mahamud Hasan',
-                'role' => 'Software Engineer',
-                'facebook'=>'https://www.facebook.com/raihan.mahmud.16121',
-                'linkedin'=>'https://www.linkedin.com/in/kazi-mahamud-9609a8257/',
-                'email'=>'raihanmahmud10112@gmail.com'
-            ],
-            [
-                'image' => 'assets/img/team/faijul.jpg',
-                'member' => 'Faijul Abedin',
-                'role' => 'Software Engineer',
-                'facebook'=>'https://www.facebook.com/faijul.abedin.9',
-                'linkedin'=>'https://www.linkedin.com/in/faijul-abedin/',
-                'email'=>'faijulabedin7@gmail.com'
-            ],
-        ];
+        // $team = [
+        //     [
+        //         'image' => 'assets/img/team/imon.jpeg',
+        //         'member' => 'Imon Faysal',
+        //         'role' => 'Software Engineer',
+        //         'facebook'=>'https://www.facebook.com/faysalahmed.khan.1',
+        //         'linkedin'=>'https://www.linkedin.com/in/imon-faysal-143b82234/',
+        //         'email'=>'emonf666@gmail.com'
+        //     ],
+        //     [
+        //         'image' => 'assets/img/team/sheikhraihan.jpeg',
+        //         'member' => 'Sheikh Raihan Al Saleh',
+        //         'role' => 'Software Engineer',
+        //         'facebook'=>'https://www.facebook.com/sheakhraihan.nabil/',
+        //         'linkedin'=>'https://www.linkedin.com/in/sheikh-raihan-al-saleh-b24330188/',
+        //         'email'=>'sheikhraihanalsaleh22@gmail.com'
+        //     ],
+        //     [
+        //         'image' => 'assets/img/team/hasan.png',
+        //         'member' => 'Kazi Mahamud Hasan',
+        //         'role' => 'Software Engineer',
+        //         'facebook'=>'https://www.facebook.com/raihan.mahmud.16121',
+        //         'linkedin'=>'https://www.linkedin.com/in/kazi-mahamud-9609a8257/',
+        //         'email'=>'raihanmahmud10112@gmail.com'
+        //     ],
+        //     [
+        //         'image' => 'assets/img/team/faijul.jpg',
+        //         'member' => 'Faijul Abedin',
+        //         'role' => 'Software Engineer',
+        //         'facebook'=>'https://www.facebook.com/faijul.abedin.9',
+        //         'linkedin'=>'https://www.linkedin.com/in/faijul-abedin/',
+        //         'email'=>'faijulabedin7@gmail.com'
+        //     ],
+        // ];
 
         $slider=[
             
             [
-                'id'=>'31',
-                'image'=>'assets/img/screen/35.png',
-            ],
-            [
                 'id'=>'1',
-                'image'=>'assets/img/screen/1.png',
+                'image'=>'assets/img/acc/21.jpeg',
             ],
             [
                 'id'=>'2',
-                'image'=>'assets/img/screen/3.png',
+                'image'=>'assets/img/acc/2.jpeg',
             ],
             [
                 'id'=>'3',
-                'image'=>'assets/img/screen/5.png',
+                'image'=>'assets/img/acc/3.jpeg',
             ],
             [
                 'id'=>'4',
-                'image'=>'assets/img/screen/6.png',
+                'image'=>'assets/img/acc/4.jpeg',
             ],
             [
                 'id'=>'5',
-                'image'=>'assets/img/screen/7.png',
+                'image'=>'assets/img/acc/5.jpeg',
             ],
             [
                 'id'=>'6',
-                'image'=>'assets/img/screen/8.png',
+                'image'=>'assets/img/acc/6.jpeg',
             ],
             [
                 'id'=>'7',
-                'image'=>'assets/img/screen/9.png',
+                'image'=>'assets/img/acc/7.jpeg',
             ],
             [
                 'id'=>'8',
-                'image'=>'assets/img/screen/10.png',
+                'image'=>'assets/img/acc/8.jpeg',
             ],
             [
                 'id'=>'9',
-                'image'=>'assets/img/screen/11.png',
+                'image'=>'assets/img/acc/9.jpeg',
             ],
             [
                 'id'=>'10',
-                'image'=>'assets/img/screen/12.png',
+                'image'=>'assets/img/acc/10.jpeg',
             ],
             [
                 'id'=>'11',
-                'image'=>'assets/img/screen/13.png',
+                'image'=>'assets/img/acc/11.jpeg',
             ],
             [
                 'id'=>'12',
-                'image'=>'assets/img/screen/14.png',
+                'image'=>'assets/img/acc/12.jpeg',
             ],
             [
                 'id'=>'13',
-                'image'=>'assets/img/screen/15.png',
+                'image'=>'assets/img/acc/13.jpeg',
             ],
             [
                 'id'=>'14',
-                'image'=>'assets/img/screen/16.png',
+                'image'=>'assets/img/acc/14.jpeg',
             ],
             [
                 'id'=>'15',
-                'image'=>'assets/img/screen/17.png',
+                'image'=>'assets/img/acc/15.jpeg',
             ],
             [
                 'id'=>'16',
-                'image'=>'assets/img/screen/18.png',
+                'image'=>'assets/img/acc/16.jpeg',
             ],
             [
                 'id'=>'17',
-                'image'=>'assets/img/screen/19.png',
+                'image'=>'assets/img/acc/17.jpeg',
             ],
             [
                 'id'=>'18',
-                'image'=>'assets/img/screen/20.png',
+                'image'=>'assets/img/acc/18.jpeg',
             ],
             [
                 'id'=>'19',
-                'image'=>'assets/img/screen/21.png',
+                'image'=>'assets/img/acc/19.jpeg',
             ],
             [
                 'id'=>'20',
-                'image'=>'assets/img/screen/22.png',
+                'image'=>'assets/img/acc/20.jpeg',
             ],
             [
                 'id'=>'21',
-                'image'=>'assets/img/screen/24.png',
-            ],
-            [
-                'id'=>'22',
-                'image'=>'assets/img/screen/26.png',
-            ],
-            [
-                'id'=>'23',
-                'image'=>'assets/img/screen/27.png',
-            ],
-            [
-                'id'=>'24',
-                'image'=>'assets/img/screen/28.png',
-            ],
-            [
-                'id'=>'25',
-                'image'=>'assets/img/screen/29.png',
-            ],
-            [
-                'id'=>'26',
-                'image'=>'assets/img/screen/30.png',
-            ],
-            [
-                'id'=>'27',
-                'image'=>'assets/img/screen/31.png',
-            ],
-            [
-                'id'=>'28',
-                'image'=>'assets/img/screen/32.png',
-            ],
-            [
-                'id'=>'29',
-                'image'=>'assets/img/screen/33.png',
-            ],
-            [
-                'id'=>'30',
-                'image'=>'assets/img/screen/34.png',
-            ],
-           
-            [
-                'id'=>'32',
-                'image'=>'assets/img/screen/36.png',
-            ],
-            [
-                'id'=>'33',
-                'image'=>'assets/img/screen/37.png',
-            ],
-            [
-                'id'=>'34',
-                'image'=>'assets/img/screen/38.png',
-            ],
-            [
-                'id'=>'35',
-                'image'=>'assets/img/screen/39.png',
-            ],
-            [
-                'id'=>'36',
-                'image'=>'assets/img/screen/40.png',
-            ],
-            [
-                'id'=>'37',
-                'image'=>'assets/img/screen/41.png',
-            ],
-            [
-                'id'=>'38',
-                'image'=>'assets/img/screen/42.png',
-            ],
-            [
-                'id'=>'39',
-                'image'=>'assets/img/screen/43.png',
-            ],
-            [
-                'id'=>'40',
-                'image'=>'assets/img/screen/44.png',
-            ],
-            [
-                'id'=>'41',
-                'image'=>'assets/img/screen/45.png',
-            ],
-            [
-                'id'=>'42',
-                'image'=>'assets/img/screen/46.png',
-            ],
-            [
-                'id'=>'43',
-                'image'=>'assets/img/screen/47.png',
+                'image'=>'assets/img/acc/1.jpeg',
             ],
             
                 
@@ -242,76 +160,76 @@ class HomeController extends Controller
 
             [
                 'id'=>'1',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/2666/2666488.png',
-                'name'=>'Employees Rewards Points',
-                'feature'=>'Boost motivation with our rewards system.'
+                'image'=>'https://cdn.iconscout.com/icon/premium/png-256-thumb/user-management-2410699-2024637.png',
+                'name'=>'User Management',
+                'feature'=>'Efficiently create, modify, and delete user accounts. Assign roles and permissions for controlled access.'
             ],
             [
                 'id'=>'2',
                 'image'=>'https://cdn.iconscout.com/icon/premium/png-256-thumb/employee-management-2789097-2311460.png?f=webp',
-                'name'=>'Efficient Employee Management',
-                'feature'=>'Efficiently centralize and manage employee information, from personal details to performance records, in a secure database.'
+                'name'=>'Role Access Management',
+                'feature'=>'Implement role-based access control to ensure data security and limit unauthorized access.'
             ],
             [
                 'id'=>'3',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/2920/2920360.png',
-                'name'=>'User-friendly Interface',
-                'feature'=>'Automate payroll calculations and ensure accurate, timely salary payments while minimizing errors.'
+                'image'=>'https://img.icons8.com/color/12x/add-contact-to-company.png',
+                'name'=>'Contact Management',
+                'feature'=>'Easily manage and retrieve contact information for communication and record-keeping.'
             ],
             [
                 'id'=>'4',
-                'image'=>'https://cdn.iconscout.com/icon/free/png-256/free-payroll-24-1133830.png?f=webp',
-                'name'=>'Streamlined Payroll Disbursement',
-                'feature'=>'Monitor real-time attendance, leaves, and time-off requests for informed decision-making.'
+                'image'=>'https://cdn0.iconfinder.com/data/icons/business-finance-vol-1-59/512/cash_book_ledger_accounting-512.png',
+                'name'=>'Cashbook Maintenance',
+                'feature'=>'Keep track of cash inflows and outflows with a digital cashbook for effective financial monitoring.'
             ],
             [
                 'id'=>'5',
-                'image'=>'https://cdn.iconscout.com/icon/premium/png-256-thumb/employee-attendance-management-system-2245408-1872868.png?f=webp',
-                'name'=>'Real-time Time and Attendance Tracking',
-                'feature'=>'Streamline leave management with online applications, approvals, and balance tracking.'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/7656/7656399.png',
+                'name'=>'Product and Stock',
+                'feature'=>'Input and view product details along with stock quantities for streamlined inventory management.'
             ],
             [
                 'id'=>'6',
-                'image'=>'https://icons.veryicon.com/png/o/miscellaneous/facet-icon-6/leave-management-1.png',
-                'name'=>'Seamless Leave Management',
-                'feature'=>'Gain valuable insights into workforce trends, productivity, and performance through detailed reports and analytics.'
+                'image'=>'https://icon-library.com/images/sell-icon/sell-icon-12.jpg',
+                'name'=>'Purchase Management',
+                'feature'=>'Record, track, and manage purchase transactions, returns, and pending payments.'
             ],
             [
                 'id'=>'7',
-                'image'=>'https://icon-library.com/images/analytics-icon-png/analytics-icon-png-18.jpg',
-                'name'=>'Insightful Reports and Analytics',
-                'feature'=>'Ensure data security with robust measures and role-based access control in our HR Payroll software.'
+                'image'=>'https://cdn.iconscout.com/icon/free/png-256/free-sales-analysis-report-progress-dollar-finance-analytics-1-9602.png',
+                'name'=>'Sales Management',
+                'feature'=>'Efficiently record sales transactions, manage returns, and monitor pending payments.'
             ],
             [
                 'id'=>'8',
-                'image'=>'https://icons.veryicon.com/png/o/miscellaneous/52-simple-and-colorful-icon/security-84.png',
-                'name'=>'Enhanced Security and Access Control',
-                'feature'=>'Navigate and utilize the software`s full potential easily with an intuitive and user-friendly interface for HR teams and employees.'
+                'image'=>'https://cdn.iconscout.com/icon/free/png-256/free-emi-calculator-1817339-1538208.png?f=webp',
+                'name'=>'EMI Transactions',
+                'feature'=>'Facilitate EMI sales of products and effectively manage EMI collections.'
             ],
            
             [
                 'id'=>'9',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/2618/2618139.png',
-                'name'=>'Bonus & Increment',
-                'feature'=>'Manage bonuses effortlessly with our user-friendly HR system.'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/2892/2892763.png',
+                'name'=>'Reports Generation',
+                'feature'=>'Generate insightful reports summarizing purchases and EMI sales for informed decision-making.'
             ],
             [
                 'id'=>'10',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/352/352723.png',
-                'name'=>'Notice & Shift Management',
-                'feature'=>'Simplify shift scheduling and communication.'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/8090/8090406.png',
+                'name'=>'User Profile Management:',
+                'feature'=>'Allow users to view and update their profiles for accurate information.'
             ],
             [
                 'id'=>'11',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/1019/1019605.png',
-                'name'=>'Payroll tax preparation',
-                'feature'=>'Ensure payroll tax compliance with ease'
+                'image'=>'https://icons-for-free.com/iconfiles/png/512/cog+customize+gear+preferences+settings+icon-1320196713018521005.png',
+                'name'=>'Settings Customization:',
+                'feature'=>'Configure general and system-specific settings to align with business requirements.'
             ],
             [
                 'id'=>'12',
-                'image'=>'https://cdn-icons-png.flaticon.com/512/5501/5501375.png',
-                'name'=>'Fund & Expense Management ',
-                'feature'=>'Streamline financial tracking and allocation'
+                'image'=>'https://cdn-icons-png.flaticon.com/512/2345/2345454.png',
+                'name'=>'Security and Performance ',
+                'feature'=>'Robust authentication and data encryption ensure data security and prevent unauthorized access. Handle concurrent users and data entries efficiently, minimizing delays. '
             ],
            
             
@@ -320,35 +238,46 @@ class HomeController extends Controller
 
 
         $about=[
-            'title'=>'Elevate Your HR and Payroll Management with Bengal Software',
-            'describtion'=>'Welcome to streamlined efficiency and unrivaled accuracy in HR and payroll management. Our all-in-one solution redefines how you handle human resources and payroll tasks, ensuring precision and compliance every step of the way.'        
+            'image'=>'https://www.pngmart.com/files/About-Us-Download-PNG-Image.png',
+            'image2'=>'assets/img/aboutimage.png',
+            'title'=>'Elevate Your Financial Management System with Bengal Software',
+            'describtion'=>'Welcome to our platform! We`re here to introduce you to our advanced Financial Management System. Our goal is simple: to provide businesses with an efficient solution for managing finances, combining ease, accuracy, and growth opportunities.'        
         ];
         $aboutcontent=[
             [
                 'title'=>'Why Choose Us?',
-                'describtion'=>'At Bengal Software, we grasp the pivotal role of an organized HR and payroll system. Our software transforms challenges into opportunities, optimizing processes and enhancing employee management while effortlessly adhering to the latest labor laws.'
+                'describtion'=>''
             ],
             
             [
-                'title'=>'Experience Seamless Excellence',
-                'describtion'=>'Modern business demands more from HR and payroll management. Our software steps up to the challenge, offering a unified solution adaptable for businesses of any size. Complexities are simplified, allowing you to navigate intricacies with ease and confidence.'
+                'title'=>'Expertise and Experience',
+                'describtion'=>'With years of experience, we understand the intricacies of financial processes, ensuring our software meets your needs.'
             ],
             
             [
-                'title'=>'Simplicity Meets Innovation',
-                'describtion'=>'Say goodbye to the complexities of compliance. Our HR Payroll software simplifies the landscape, keeping you informed and compliant with evolving labor laws. It`s more than a tool - it`s your guide to a seamless, efficient, and worry-free operation.'
+                'title'=>'Comprehensive Features',
+                'describtion'=>'Our system offers user-friendly interfaces, insightful reporting, and adaptable features.'
             ],
             
             [
-                'title'=>'Join the Future',
-                'describtion'=>'Start your journey with Bengal Software now. Make HR and payroll a breeze, accurate, and problem-free. Your success begins today.'
+                'title'=>'Security at Core',
+                'describtion'=>'We prioritize your data security. Our software employs advanced encryption and strict access controls, safeguarding your financial information from unauthorized access and potential threats.'
             ],
+            [
+                'title'=>'Ease of Use',
+                'describtion'=>'Our intuitive interface simplifies navigating complex financial data, boosting efficiency.'
+            ],
+            [
+                'title'=>'Support',
+                'describtion'=>'Our dedicated team is committed to assisting you at every stage, ensuring you make the most of our software.'
+            ],
+            
             
          
             
         ];
         
-        return view('home.homepage',compact('contact','image','team','slider','features','about','aboutcontent'));
+        return view('home.homepage',compact('contact','image','slider','software','features','about','aboutcontent'));
     }
     
 }

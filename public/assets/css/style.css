@@ -10,7 +10,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  background-color: white;
+  background-color: #dedede;
   color: rgb(0, 0, 0);
 }
 
@@ -143,7 +143,7 @@ span {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #fff;
+  /* background: #efefef; */
   z-index: 997;
   transition: all 0.5s ease;
   padding: 20px 0;
@@ -173,7 +173,7 @@ span {
 }
 
 #header.header-scrolled {
-  background: #fff;
+  background: #dedede;
   box-shadow: 0 3px 7px rgba(0, 0, 0, 0.1);
   padding: 12px 0;
 }
@@ -409,10 +409,10 @@ span {
   width: 100%;
   height: calc(100vh - 40px);
   /* background: url(../img/hero-bg-2.jpg) center bottom no-repeat; */
-  background: url(../img/newsletter-bg.jpg) center bottom no-repeat;
+  background: url(../img/hero3.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
-  margin-top: 40px;
+  margin-top: 0;
 }
 
 @media (min-width: 1025px) {
@@ -433,18 +433,24 @@ span {
   }
 }
 
+
+
 #hero .hero-container {
   position: absolute;
-  bottom: 0;
-  top: 0;
+  bottom: 20%;
+  top: 20%;
   left: 0;
-  right: 0;
+  right: 50%; /* Adjusted to push content to the left */
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start; /* Adjusted to start from the left */
+  align-items: flex-start; /* Adjusted to start from the left */
   flex-direction: column;
-  text-align: center;
+  text-align: left; /* Adjusted to align text to the left */
+  padding-left: 20px; /* Added some left padding for content */
 }
+
+
+
 
 #hero h1 {
   margin: 0 0 10px 0;
@@ -737,7 +743,7 @@ section {
 }
 
 #features .feature-block {
-  background: #fff none repeat scroll 0 0;
+  background: #dedede none repeat scroll 0 0;
   padding: 30px 20px;
   margin-bottom: 30px;
   transition: all 0.5s ease-in-out 0s;
@@ -1423,7 +1429,7 @@ section {
 }
 
 .footer .copyrights {
-  background: #fff;
+  background: #dedede;
   margin-top: 50px;
   text-align: center;
   padding: 25px;
